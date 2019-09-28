@@ -60,32 +60,127 @@ table {
     background-position: center;
 
 }
-
+.linea-borde{
+    display: flex;
+    border-right-width: 3px;
+    width: 80%;
+    flex: 84%;
+    flex-wrap: wrap;
+    margin-left: 31px;
+    margin-right: 31px;
+    border-radius: 31px 31px 31px 31px;
+    -moz-border-radius: 31px 31px 31px 31px;
+    -webkit-border-radius: 31px 31px 31px 31px;
+    border: 11px none #ffffff;
+    background: rgba(255, 255, 255, .3);
+   
+}
 .encabezado{
     display: flex;
     margin-left: 36px;
 }
-
-#logo img{
+#logo{
     width: 30%;
+}
+#logo img{
+    width: 100%;
 }
 
 article{
     
-    margin-left: 36px;
-    width: 59%;
+    margin-left: 22px;
+    width: 80%;
+    margin-bottom: 20px;
 
 }
 .titulo{
     width: 100%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 57px;
     width: 100%;
     padding-right: 0px;
     font-weight: bold;
     display: flex;
-    color: red;
+    color: #D90D0D;
     margin-right: 134px;
     font-weight: bold;
+    margin-bottom: 21px;
+}
+section{
+    display: flex;
+}
+
+section p{
+    color: black;
+    line-height: normal;
+    font-size: 1rem;
+    text-align: justify;
+}
+.raya{
+    height: 3px;
+    width: 100%;
+    background: #D90D0D;
+    top: -111px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenedor-tarjetas{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, .3);
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    
+}
+.tarjeta{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    color: #1b1b1b;
+    padding-top: 20px;
+    flex: 49%;
+   
+}
+
+.imagen-tarjeta img{
+    width: 80%;
+    height: auto;
+    margin-bottom: 12px;
+}
+.descripcion h3{
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+.vermas{
+    display: flex;
+    margin: 0px auto;
+    background: #de0108;
+    color: #fff;
+    width: 15%;
+    text-shadow: none;
+    padding: 16px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.vermas:hover{
+    background: #750004;
+}
+
+
+.vermas a{
+    color: #fff;
+    font-size: medium;
+    font-style: normal;
+    line-height: 16px;
+    text-decoration: none;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 
